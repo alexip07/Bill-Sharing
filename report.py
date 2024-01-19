@@ -20,7 +20,7 @@ class PdfReport:
         pdf.add_page()
 
         # Add icon
-        pdf.image("files/house.png", w=30, h=30)
+        pdf.image("house.png", w=30, h=30)
 
         # Insert Title
         pdf.set_font(family='Times', size=24, style='B')
